@@ -1,0 +1,96 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "Handlee", cursive;
+}
+#main{
+    width:100%;
+    height: 100%;
+    /* background-color: skyblue; */
+}
+#nav1{
+    width:100%;
+    height: 50px;
+    /* background-color: blue; */
+}
+#nav2{
+    width:100%;
+    height: 50px;
+    display:flex;
+    gap: 90px;
+    flex-wrap: nowrap;
+    padding: 30px 10px 5px 25px;
+    text-transform: uppercase;
+    /* background-color: greenyellow; */
+}
+#textContent{
+    width: 100%;
+    height: calc((100% - 300px )/1.999);
+    /* background-color: orchid; */
+    display: flex;
+    padding: 30px 0px 0px 100px;
+    gap:600px;
+    justify-items: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-size: 30px;
+    overflow-x: auto;
+}
+#textContent h1{
+    font-weight: 150;
+}
+#textContent::-webkit-scrollbar{
+    height: 8px;
+    width: 5px;
+    background-color: transparent;
+}
+#textContent::-webkit-scrollbar-thumb{
+    background-color: aqua;
+}
+#imageContent{
+    width: 100%;
+    height: 57.5%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+#imageContent::-webkit-scrollbar{
+    background: none;
+    height: 0px;
+    width: 0px;
+}
+#imageContent img{
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#glassLogo{
+    padding:1px 20px 10px 20px;
+    width: 100px;
+    height: auto;
+}
+#nav1Part2{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding:20px 20px 0px 0px;
+    margin-top: -81px;
+}
+#rn{
+    color: grey;
+}
+#india{
+    margin-top: -5px;
+}
+#cart,#user,#search{
+    width: 20px;
+    height: auto;
+}
